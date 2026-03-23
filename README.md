@@ -1,6 +1,6 @@
 # 中国股票风格因子构造与复现  “Size and Value in China (Journal of Financial Economics, Vol 134,
 Issue 1, 2019, Pages 48-69)” 
-
+data: https://huggingface.co/datasets/transiencee/data_for_China-4-factor-model-reccurence
 本项目是一次机器学习量化投资课程作业，核心目标是基于中国 A 股月频数据，按照 `LSY (2019)` 风格构造并分析一组风格因子。项目最终在 `hwfinal.ipynb` 中完成数据清洗、因子构造、统计汇总和可视化，并生成可用于后续研究的月度因子序列。
 
 当前仓库已经包含整理后的主数据文件 `completedata.csv` 和完整实验 notebook `hwfinal.ipynb`，适合直接阅读思路、复现实验主流程，或在此基础上继续扩展。
